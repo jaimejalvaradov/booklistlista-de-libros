@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'Libro',
+  name: 'LibroItem',
   props: {
     libro: { type: Object, required: true }
   },
@@ -47,32 +47,12 @@ export default {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   list-style: none;
 }
-.lomo {
-  width: 8px;
-  height: 36px;
-  border-radius: 3px;
-  flex-shrink: 0;
-}
+.lomo { width: 8px; height: 36px; border-radius: 3px; flex-shrink: 0; }
 .info { flex: 1; min-width: 0; }
-.titulo {
-  font-weight: 600;
-  font-size: 14px;
-  color: #101010;
-  text-decoration: none;
-  display: block;
-}
+.titulo { font-weight: 600; font-size: 14px; color: #101010; text-decoration: none; display: block; }
 .titulo:hover { text-decoration: underline; }
 .autor { margin: 2px 0; font-size: 13px; color: #555; }
 .categoria { font-size: 11px; color: #4f46e5; font-weight: 600; }
-.borrar {
-  background: transparent;
-  border: 1px solid #e5e7eb;
-  color: #888;
-  padding: 6px 10px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 12px;
-  flex-shrink: 0;
-}
+.borrar { background: transparent; border: 1px solid #e5e7eb; color: #888; padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; flex-shrink: 0; }
 .borrar:hover { background: #fde8ea; color: #c0392b; border-color: #fde8ea; }
 </style>

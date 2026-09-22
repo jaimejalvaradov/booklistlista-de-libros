@@ -1,7 +1,5 @@
 import { reactive } from 'vue';
 
-// Estado reactivo compartido: cualquier componente que lo importe
-// ve los mismos datos y las mismas actualizaciones (Model de MVVM)
 const estado = reactive({
   libros: [
     { id: 1, titulo: 'Cien años de soledad', autor: 'Gabriel García Márquez', categoria: 'Novela', notas: 'Referente del realismo mágico.' },

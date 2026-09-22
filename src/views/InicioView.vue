@@ -21,15 +21,6 @@ export default {
 h1 { font-size: 26px; margin: 0 0 4px 0; }
 .subtitulo { color: #888; margin: 0 0 20px 0; }
 .texto { color: #555; font-size: 14px; margin-bottom: 24px; line-height: 1.5; }
-.boton {
-  display: inline-block;
-  background: #4f46e5;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 14px;
-}
+.boton { display: inline-block; background: #4f46e5; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 14px; }
 .boton:hover { background: #4338ca; }
 </style>

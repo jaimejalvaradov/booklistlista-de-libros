@@ -14,8 +14,9 @@ const routes = [
   }
 ];
 
+// process.env.BASE_URL es la variable que usa Vue CLI (en vez de import.meta.env de Vite)
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 });
 
